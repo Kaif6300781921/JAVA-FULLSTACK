@@ -1,0 +1,12 @@
+class A
+{
+	static int i=1;
+	public static void main (string []args)
+	{
+		System.out.println(A.i);
+		A.i=2;
+		System.out.println(A.i);
+		A.i=3;
+		System.out.println(A.i);
+	}
+	}
